@@ -15,10 +15,5 @@ urllib3==1.26.4
 Werkzeug==1.0.1
 xmltodict==0.12.0
 yarg==0.1.9
-pickle
-heapq
-typing
-urllib
-bs4
-nltk
-string
+bs4==0.0.1
+nltk==3.6.2
