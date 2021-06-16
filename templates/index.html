@@ -17,11 +17,11 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="experience" placeholder="Experience" required="required" />
-        <input type="text" name="test_score" placeholder="Test Score" required="required" />
-		<input type="text" name="interview_score" placeholder="Interview Score" required="required" />
+    	<input type="text" name="parva_number" placeholder="Parva number" required="required" />
+        <input type="text" name="parva_part" placeholder="Parva part" required="required" />
+		<input type="text" name="page_number" placeholder="Page number" required="required" />
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Summarize!</button>
     </form>
 
    <br>
